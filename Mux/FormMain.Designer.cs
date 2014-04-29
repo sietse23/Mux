@@ -37,6 +37,7 @@
             this.btnOpen = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.rtbLog = new System.Windows.Forms.RichTextBox();
+            this.chkResize = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // ofdDialog
@@ -105,11 +106,24 @@
             this.rtbLog.TabIndex = 3;
             this.rtbLog.Text = "";
             // 
+            // chkResize
+            // 
+            this.chkResize.AutoSize = true;
+            this.chkResize.Checked = true;
+            this.chkResize.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkResize.Location = new System.Drawing.Point(304, 565);
+            this.chkResize.Name = "chkResize";
+            this.chkResize.Size = new System.Drawing.Size(58, 17);
+            this.chkResize.TabIndex = 4;
+            this.chkResize.Text = "Resize";
+            this.chkResize.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 588);
+            this.Controls.Add(this.chkResize);
             this.Controls.Add(this.rtbLog);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnOpen);
@@ -118,6 +132,7 @@
             this.Text = "Mux";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -130,5 +145,6 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.RichTextBox rtbLog;
         public System.Windows.Forms.OpenFileDialog ofdDialog;
+        private System.Windows.Forms.CheckBox chkResize;
     }
 }

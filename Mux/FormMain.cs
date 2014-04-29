@@ -179,6 +179,12 @@ namespace Mux
 
                 string myScript = File.ReadAllText(Globals.TermplatePad);
                 myScript = myScript.Replace("$PAD", myVideoFile.Replace(@"\", @"/"));
+
+                if (!chkResize.Checked)
+                {
+                    myScript = myScript.Replace("adm.addVideoFilter(\"swscale\", \"width=624\", \"height=352\", \"algo=2\", \"sourceAR=1\", \"targetAR=1\");", "");
+                }
+
                 File.WriteAllText(myScriptFile, myScript);
 
                 myVideoFile = Path.ChangeExtension(myVideoFile, "avi");
