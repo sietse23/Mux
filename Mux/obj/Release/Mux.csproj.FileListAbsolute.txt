@@ -1,0 +1,10 @@
+D:\Develop\Projects\Mux\Mux\bin\Release\Mux.exe.config
+D:\Develop\Projects\Mux\Mux\bin\Release\Template\Script.js
+D:\Develop\Projects\Mux\Mux\bin\Release\Mux.exe
+D:\Develop\Projects\Mux\Mux\bin\Release\Mux.pdb
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.FormMain.resources
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.Properties.Resources.resources
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.csproj.GenerateResource.Cache
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.exe
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.pdb
+D:\Develop\Projects\Mux\Mux\obj\Release\Mux.csprojResolveAssemblyReference.cache
