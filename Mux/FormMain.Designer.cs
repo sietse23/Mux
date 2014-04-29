@@ -108,6 +108,7 @@
             // 
             // chkResize
             // 
+            this.chkResize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkResize.AutoSize = true;
             this.chkResize.Checked = true;
             this.chkResize.CheckState = System.Windows.Forms.CheckState.Checked;
